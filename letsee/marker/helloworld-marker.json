@@ -1,0 +1,10 @@
+{
+    "uri":"helloworld-marker.json",
+    "name":"",
+    "size":{
+        "width": 200,
+        "height": 100
+    },
+    "scale": 1,
+    "image":"helloworld-marker.jpg"
+}

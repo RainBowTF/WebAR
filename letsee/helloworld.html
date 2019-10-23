@@ -1,0 +1,24 @@
+<!-- 이 페이지는 https://developers.letsee.io/tutorials/#/hello-world 를 참조로 만들었습니다 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdn.letsee.io/webar/letsee-0.9.18.min.js"></script>
+
+<style media="place" type="text/css">
+    #container {
+      -letsee-target: uri('marker/helloworld-marker.json');
+    }
+</style>
+
+</head>
+<body>
+    <div id="container"><h1>Hello, world!</h1></div>
+    <script>
+        const config = {
+        "appKey": "f74997f672f2e251be84a05d96cb45a83ce6c3551b7e0c64b207b63a87c4a306",
+        "trackerType": "IMAGE",
+        };
+        const letsee = new Letsee(config);
+    </script>
+</body>
+</html>
