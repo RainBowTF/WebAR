@@ -6,3 +6,35 @@
 body {
   padding-top: 56px;
 }
+
+.card-img-left {
+  width: 300px;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.card-left {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.top-padding {
+  padding-top: 10px;
+}
+
+.left-padding {
+  padding-left: 30px;
+}
+
+.right-padding {
+  padding-right: 0px;
+}
